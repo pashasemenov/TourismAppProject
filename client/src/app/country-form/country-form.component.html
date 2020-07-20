@@ -1,0 +1,8 @@
+<button (click)="getCountries()">Get Countries</button>
+<div class="container" *ngFor="let country of countries">
+  <span>
+    <img [src]="country.img" alt="No img">
+    <span>{{ country.name | titlecase}}</span>
+  </span>
+</div>
+

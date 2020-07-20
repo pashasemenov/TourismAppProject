@@ -1,0 +1,5 @@
+{
+  "port": 3000,
+  "mongoURI": "mongodb+srv://user:1234qwer@cluster0.fxyrb.mongodb.net/tourism?retryWrites=true&w=majority",
+  "jwtSecret": "rottenChicken"
+}
